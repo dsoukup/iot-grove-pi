@@ -1,6 +1,14 @@
 #!/bin/bash
 set -x
 
+#Experimental - set locale and keyboard to US types
+sudo sed -i 's/^en_GB/# en_GB/g' /etc/locale.gen
+sudo sed -i 's/^# en_US.UTF8/en_US.UTF8/g' /etc/locale.gen
+sudo locale-gen --purge en_US.UTF-8
+sudo update-locale LANG=en_US.UTF-8 LANGUAGE
+M='pc101' && sudo sed -i 's/XKBMODEL=\"\w*"/XKBMODEL=\"'$M'\"/g' /etc/default/keyboard
+L='us' && sudo sed -i 's/XKBLAYOUT=\"\w*"/XKBLAYOUT=\"'$L'\"/g' /etc/default/keyboard
+
 #Update the Raspbian repos
 sudo apt-get -y update
 
