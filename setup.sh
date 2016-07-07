@@ -8,6 +8,12 @@ sudo locale-gen --purge en_US.UTF-8
 sudo update-locale LANG=en_US.UTF-8 LANGUAGE
 M='pc101' && sudo sed -i 's/XKBMODEL=\"\w*"/XKBMODEL=\"'$M'\"/g' /etc/default/keyboard
 L='us' && sudo sed -i 's/XKBLAYOUT=\"\w*"/XKBLAYOUT=\"'$L'\"/g' /etc/default/keyboard
+setxkbmap us
+export LANG=en_US.UTF-8
+
+#Experimental - set local time to US/Central
+echo "America/Chicago" | sudo tee /etc/timezone
+sudo dpkg-reconfigure -f noninteractive tzdata
 
 #Update the Raspbian repos
 sudo apt-get -y update
