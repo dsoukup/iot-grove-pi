@@ -10,14 +10,9 @@ A setup script for the [SensED IoT Pilot Program](http://thinkbigpartners.com/se
 
 # Assumptions
 1. The OS is a new install of the [Raspbian Jessie - May 2016](https://www.raspberrypi.org/downloads/raspbian/) image.
-2. The user has already expanded the root partition to the full size of the SD card.
-  * `sudo raspi-config`
-    * Select the `expand_rootfs - Expand root partition to fill SD card`
-    * Finish
-    * Reboot
-3. The Raspberry Pi is connected to the network via wlan0 interface (manual step)
-4. The network connection allows access to external sites (for git clone operations and operating system updates/package installation)
-5. IP address is assigned within 30 seconds of boot (DHCP or static)
+2. The Raspberry Pi is connected to the network via wlan0 interface (manual step)
+3. The network connection allows access to external sites (for git clone operations and operating system updates/package installation)
+4. IP address is assigned within 30 seconds of boot (DHCP or static)
 
 # How to download and use the script
 ```
