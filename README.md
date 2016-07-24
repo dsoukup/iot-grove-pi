@@ -1,9 +1,13 @@
 # iot-grove-pi
 
-First, you must install the Operating System [Raspbian Jessie - May 2016](https://www.raspberrypi.org/downloads/raspbian/). See [the Raspberry Pi Software Guide](https://www.raspberrypi.org/learning/software-guide/quickstart/) for installation instructions.
+First, you must install the Operating System [Raspbian Jessie - May 2016](https://www.raspberrypi.org/downloads/raspbian/). 
 
-Next check that the following conditions are true before you can go on:
-* The Raspberry Pi is connected to the wireless network. (manual step)
+See [the Raspberry Pi Software Guide](https://www.raspberrypi.org/learning/software-guide/quickstart/) for installation instructions.
+
+You can also watch this video [Getting Started with NOOBS](https://vimeo.com/90518800)for instruction on installing Raspbian from NOOBS on your SD card.
+
+After you have Raspbian installed on your Operating System, check that the following conditions are true before you can go on:
+* Connect to the wireless network. (manual step)
 * The network connection allows access to external sites (for git clone operations and operating system updates/package installation)
 * IP address is assigned within 30 seconds of boot (DHCP or static)
 
