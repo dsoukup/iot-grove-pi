@@ -9,7 +9,8 @@ A setup script for the [SensED IoT Pilot Program](http://thinkbigpartners.com/se
 * Clones both https://github.com/IoTDevLabs/iot-educ.git and https://github.com/DexterInd/GrovePi to the pi users home directory and installs them on the system
 
 # Assumptions
-1. The OS is a new install of the [Raspbian Jessie - May 2016](https://www.raspberrypi.org/downloads/raspbian/) image.
+1. The Operating System is a new install of the [Raspbian Jessie - May 2016](https://www.raspberrypi.org/downloads/raspbian/) image.
+     See [the Raspberry Pi Software Guide](https://www.raspberrypi.org/learning/software-guide/quickstart/) for installation instructions.
 2. The Raspberry Pi is connected to the network via wlan0 interface (manual step)
 3. The network connection allows access to external sites (for git clone operations and operating system updates/package installation)
 4. IP address is assigned within 30 seconds of boot (DHCP or static)
