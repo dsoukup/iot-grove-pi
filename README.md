@@ -2,9 +2,7 @@
 
 First, you must install the Operating System [Raspbian Jessie - May 2016](https://www.raspberrypi.org/downloads/raspbian/). 
 
-See [the Raspberry Pi Software Guide](https://www.raspberrypi.org/learning/software-guide/quickstart/) for installation instructions.
-
-You can also watch this video [Getting Started with NOOBS](https://vimeo.com/90518800) for instruction on installing Raspbian from NOOBS on your SD card.
+See [the Raspberry Pi Software Guide](https://www.raspberrypi.org/learning/software-guide/quickstart/) for installation instructions, or watch this video [Getting Started with NOOBS](https://vimeo.com/90518800).
 
 After you have Raspbian installed on your Operating System, check that the following conditions are true before you can go on:
 * Connect to the wireless network. (manual step)
