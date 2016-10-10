@@ -5,7 +5,7 @@ First, you must install the Operating System [Raspbian Jessie With PIXEL -Septem
 See [the Raspberry Pi Software Guide](https://www.raspberrypi.org/learning/software-guide/quickstart/) for installation instructions, or watch this video [Getting Started with NOOBS](https://vimeo.com/90518800).
 
 After you have Raspbian installed on your Operating System, check that the following conditions are true before you can go on:
-* Expand the filesystem to full size of the SD card.
+* Expand the filesystem to full size of the SD card. (sudo raspi-config --expand-rootfs; reboot)
 * Connect to the wireless network. (manual step)
 * The network connection allows access to external sites (for git clone operations and operating system updates/package installation)
 * IP address is assigned within 30 seconds of boot (DHCP or static)
