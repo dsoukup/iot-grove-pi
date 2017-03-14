@@ -1,9 +1,7 @@
 # GrovePi + Grove - LCD RGB Backlight
-# http://www.seeedstudio.com/wiki/Grove_-_LCD_RGB_Backlight
-#
-# Just supports setting the backlight colour, and
-# putting a single string of text onto the display
-# Doesn't support anything clever, cursors or anything
+# uses http://www.seeedstudio.com/wiki/Grove_-_LCD_RGB_Backlight
+# diplays IP address to LCD RGB Backlight
+# @dsoukup Deanna Soukup
 
 
 import time,sys
