@@ -1,3 +1,5 @@
+#@csoukup and @dsoukup
+
 #!/bin/bash
 set -x
 
